@@ -6,7 +6,8 @@ public class CircleObject1 {
 	private double radius;
 
 	public CircleObject1(double radius) {//constructor
-		this.radius = radius;
+	  this.radius = radius; //The this keyword is a reference to the current object. 
+	                         //  It is used to pass this instance of the object, and more.
 				CircleObject1.circlecount++;
 	}
 // get Circumference
